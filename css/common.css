@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 16px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 24px;
+  width: 392px;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item ul {
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.item ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  gap: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+.gallery {
+  display: flex; /*seems like a mistake*/
+  justify-content: center; /*seems like a mistake*/
+  align-items: center; /*seems like a mistake*/
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+  margin: 0 auto;
+}
+.list-item {
+  width: 360px;
+  height: 300px;
+}
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+}
+.widget button {
+  width: 148px;
+  height: 40px;
+}
