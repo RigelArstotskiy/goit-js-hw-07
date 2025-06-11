@@ -1,4 +1,4 @@
-const numberOfCategories = document.querySelectorAll("#categories ul").length;
+const numberOfCategories = document.querySelectorAll(".item").length;
 
 console.log(`Number of categories: ${numberOfCategories}`);
 
